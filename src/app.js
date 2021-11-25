@@ -8,17 +8,17 @@ dolarDun = "9.20"
 {
     let dolarDun = 9.10
 }
+ console.log(dolarDun)
 
-console.log(dolarDun)
-
-const euroDun = 11.2
-//euroDun = 11
+ const euroDun = 11.2
+ //euroDun = 11  //Bu hata bunu yapamıyoruz çünkü aynı değişken adını yukarıda const olarak tanımladık
 
 console.log(euroDun)
 
-//array
-//camelCasing
-//PascalCasing
+//array 
+// //camelCasing
+// //PascalCasing
+
 let konutKredileri = ["Konut kredisi","Emlak Konut Kredisi","Kamu Konut Kredisi","Özel Konut Kredisi"]
 
 console.log("<ul>")
@@ -27,10 +27,11 @@ for(let i = 0;i<konutKredileri.length;i++){
 }
 console.log("</ul>")
 
-{/* <ul>
-    <li>Konut kredisi</li>
-    <li>Emlak Konut Kredisi</li>
-    <li>Kamu Konut Kredisi</li>
-</ul> */}
 
-console.log(konutKredileri)
+// <ul>
+//     <li>Konut kredisi</li>
+//     <li>Emlak Konut Kredisi</li>
+//     <li>Kamu Konut Kredisi</li>
+// </ul> 
+
+// console.log(konutKredileri)
